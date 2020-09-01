@@ -404,7 +404,7 @@ extension AVMutableAudioMixInputParameters {
         }
     }
     
-    func appendAudioProcessNode(_ node: AudioProcessingNode) {
+    public func appendAudioProcessNode(_ node: AudioProcessingNode) {
         if audioProcessingTapHolder == nil {
             audioProcessingTapHolder = AudioProcessingTapHolder()
         }
